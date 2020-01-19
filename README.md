@@ -1,2 +1,2 @@
-# Sunjinhang.github.io
+# sun-jinhang.github.io
 personal website
