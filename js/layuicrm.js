@@ -131,6 +131,24 @@ layui.define(['element', 'layer', 'jquery'], function(exports) {
 			});
 			return msg;
 		};
+		/**
+		 * 成功
+		 * @param title
+		 * @returns {*}
+		 */
+		this.msg_success = function (title) {
+		    return layer.msg(title, {icon: 1, shade: this.shade, scrollbar: false, time: 2000, shadeClose: true});
+		};
+		
+		/**
+		 * 失败
+		 * @param title
+		 * @returns {*}
+		 */
+		this.msg_error = function (title) {
+		    return layer.msg(title, {icon: 2, shade: this.shade, scrollbar: false, time: 3000, shadeClose: true});
+		};
+		
 		this.tabRoll = function () {
 		    $(window).on("resize", function (event) {
 		        var topTabsBox = $("#top_tabs_box"),
