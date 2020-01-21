@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>index</title>
+		<title>Demo</title>
 		<link rel="stylesheet" href="layui/css/layui.css" media="all">
 		<link rel="stylesheet" href="css/layui-crm.css" media="all">
 		<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css" media="all">
@@ -10,12 +10,11 @@
 	<body class="layui-layout-body">
 		<div class="layui-layout layui-layout-admin">
 			<div class="layui-header header">
-				<div class="layui-logo">Layui-Demo</div>
-				<ul class="layui-nav layui-layout-left">
-					<li class="layui-nav-item"><a href="javascript:;" class="layui-icon layui-icon-shrink-right"></a></li>
-					<li class="layui-nav-item"><a href="javascript:;" class="layui-icon layui-icon-spread-left" style="display:none"></a></li>
-					<li class="layui-nav-item"><a href="javascript:;">待办事项<span class="layui-badge">99+</span></a></li>
-				</ul>
+				<div class="layui-logo">Demo</div>
+				<a>
+				    <div class="layuimini-tool"><i title="展开" class="fa fa-outdent" data-side-fold="1"></i></div>
+				</a>
+				
 				<ul class="layui-nav layui-layout-right kit-nav">
 					<li class="layui-nav-item"><a href="javascript:;" class="layui-icon layui-icon-notice">消息<span class="layui-badge-dot"></span></a></li>
 					<li class="layui-nav-item"><a href="javascript:;" class="layui-icon layui-icon-theme">主题</a></li>
@@ -46,7 +45,6 @@
 						<li class="layui-nav-item">
 							<a href="javascript:;"> <i></i> 页面操作</a>
 							<dl class="layui-nav-child">
-								<dd><a href="javascript:;" data-page-close="this"><i></i> 关闭当前</a></dd>
 								<dd><a href="javascript:;" data-page-close="other"><i></i> 关闭其他</a></dd>
 								<dd><a href="javascript:;" data-page-close="all"><i></i> 关闭全部</a></dd>
 							</dl>
